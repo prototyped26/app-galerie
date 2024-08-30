@@ -1,0 +1,67 @@
+select{
+    padding: 10px 14px;
+    margin: 6px 0;
+}
+
+.MainPagination {
+    width: 80%;
+    #background-color: aqua;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.ChoseSize {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ChangeNumber {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    float: right;
+}
+
+.Paginator li {
+    display: inline
+}
+.Paginator li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #000
+}
+
+.Paginator li a {
+    border-radius: 5px;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s
+
+}
+.Paginator li a.active {
+    background-color: #282c34;
+    color: #fff
+}
+.Paginator li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+@media (max-width: 768px) {
+    .ChoseSize {
+        display: block;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .ChangeNumber {
+        float: left;
+        margin-top: 20px;
+        position: fixed;
+        background-color: red;
+    }
+}

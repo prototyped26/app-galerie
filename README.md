@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Page Web du TP 1 Gestion de la Galerie
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+Projet réalisé avec React, et qui se lance via la commande npm start.
 
 ## Available Scripts
 
